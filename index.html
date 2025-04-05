@@ -11,9 +11,12 @@
       <h1>Generate a <br /><span>Random Password </span></h1>
       <div class="display">
         <input type="text" id="password" placeholder="password" />
-        <img src="./images/copy.png" />
+        <img src="./images/copy.png" onclick="copypassword()" />
       </div>
-      <button><img src="./images/generate.png" />Generate password</button>
+      <button id="btn">
+        <img src="./images/generate.png" />Generate password
+      </button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
